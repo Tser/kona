@@ -1,15 +1,12 @@
 # Robotframework 简单实现自动化
 ## 环境搭建：windows 10 + py3 + pip
        
-`pip install robotframework==3.1.1\
-robotframework-selenium2library==3.0.0\
-robotframework-seleniumlibrary==3.3.1\
-selenium==3.141.0`
+`pip install robotframework==3.1.1 robotframework-selenium2library==3.0.0 robotframework-seleniumlibrary==3.3.1 selenium==3.141.0`
 
 ###找一个空文件夹
 创建一个文件：tests.robot
 `
-*** Setting ***
+*** Setting ***<br>
 Library    Selenium2Library
 
 *** Variables ***
