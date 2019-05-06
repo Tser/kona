@@ -7,6 +7,7 @@ ${broswer_name}    Chrome
 
 *** Test Cases ***
 Xiaobai
-    log ${server}
+    log http://www.baidu.com
 
 *** Keywords ***
+${broswer_name}
