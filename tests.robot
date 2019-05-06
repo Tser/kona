@@ -3,7 +3,7 @@ Library    Selenium2Library
 
 *** Variables ***
 ${server url}       http://wwww.baidu.com
-${broswer name}     Chrome
+${broswer name}     Firefox
 ${sleep}            1
 
 *** Test Cases ***
