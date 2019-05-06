@@ -10,4 +10,4 @@ Xiaobai
     log http://www.baidu.com
 
 *** Keywords ***
-${broswer_name}
+
