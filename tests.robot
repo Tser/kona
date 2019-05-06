@@ -2,12 +2,16 @@
 Library    Selenium2Library
 
 *** Variables ***
-${server_url}    http://wwww.baidu.com
-${broswer_name}    Chrome
+${server url}       http://wwww.baidu.com
+${broswer name}     Chrome
+${sleep}            1
 
 *** Test Cases ***
 Xiaobai
-    Log http://www.baidu.com
+    open site
 
 *** Keywords ***
-
+open site
+    Open Browser    ${server url}    ${broswer name}
+    Maximize Browser Window
+    Set Selenium Speed    ${sleep}
